@@ -17,3 +17,6 @@ Single page app for ordering flowers.
 
 ## Found issue?
 Please feel free to raise issues.
+
+## Look n Feel
+![Ordering Menu App](https://github.com/pritisolanki/flowerOrderingApp/blob/master/assets/ordering%20app.png)
