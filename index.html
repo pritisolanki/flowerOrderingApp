@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>
+            Priticious Fleuriste    
+        </title>
+    </head>
+    <body>
+        <div class="shopintro">
+            <h2 class="shopname">Priticious Fleuriste</h2>
+            <h3 class="tagline">Best, flower bouquets in the town</h3>
+        </div>
+        <div id="floweritems">
+        </div>
+        <div class="cart" id="book">
+            <section id="finalorder">
+                <h2 class="order-header">Your Order</h2>
+                <div class="order-item" id="orderitemrow">
+                </div>
+                <div class="coupon" id="coupon">
+                    <section class="item-row">
+                        <p>Applied coupon</p>
+                        <p>-<span id="coupon-amt">5</span>$</p> 
+                    </section>
+                </div>
+                <div class="totalDiv">
+                    <p>Total price</p>
+                    <p><span id="total-sum"></span>$</p>
+                </div>
+                <button id="orderbtn" class="btn">Complete Order</button>
+            </section>
+        </div>
+        <div class="payment_model" id="paymentModel">
+            <input type="text" placeholder="Enter your name"  required id="fullname"/><br/>
+            <input type="text" placeholder="Enter card number" required/><br/>
+            <input type="password" placeholder="Enter CVV" required/><br/>
+            <button type="submit" class="paybtn" id="paymentSubmit">Pay</button>
+        </div>
+        <div class="thankyou" id="thankyouModel">
+        </div>
+        <footer id="footer">
+            <h3> Images from Pixabay, Designed and Developed by <a href="https://www.pritisolanki.com/" target="_blank">Priti Solanki</a> - <a href="https://stunning-mochi-23994f.netlify.app/" target="_blank">Business Card</a> </h3>
+        </footer>
+        <script src="index.js" type="module"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKL82ZCZDH"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TKL82ZCZDH');
+        </script>
+    </body>
+</html>

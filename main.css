@@ -1,0 +1,137 @@
+body{
+    font-family: 'Eagle Lake', cursive;
+    font-size: small;
+    position: relative;
+    margin: 0px 30px;
+}
+header{
+    margin-top: 0;
+}
+.shopintro{
+    background-image: url("./assets/fl.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+}
+#floweritems{
+    margin-left: 30px;
+}
+.flower-img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border :1px solid #ff006e;
+}
+#description{
+    padding-left: 10px;
+    width: 80%;
+}
+.flower-item{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.shopname{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px snow;
+}
+.tagline{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 232px;
+    width: auto;
+    padding: 20px; 
+    background-color: #8c80b0;
+}
+.btn{
+    background-color: #8c80b0;
+    width: 100%;
+    padding: 13px;
+    border-radius: 3px;
+    color: snow;
+    font-family: 'Eagle Lake', cursive;
+    font-size: large;
+    border: 0px;
+}
+#footer{
+    background-color: #efeaee;
+    text-align: center;
+    padding: 10px;
+    color:#302740;
+    margin-top: 10px;
+}
+.cart{
+    text-align: center;
+    display: none;
+}
+.order-item{
+    border-bottom: 2px solid #2b3598;
+}
+.totalDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.addtocart{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    padding-left: 20px;
+}
+.productname{
+    border-bottom: 1px solid #2b3598;
+    color: #ff006e;
+}
+.item-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.coupon{
+    display: none;
+    text-align: center;
+    color: fuchsia;
+    font-size: small;
+}
+#coupon-amt{
+    margin-top: 10px;
+}
+.removelink{
+    color: #a19056;
+}
+.payment_model{
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    padding: 20px;
+    background-color: #b6afc5;
+    margin: auto;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.payment_model input{
+    width: 280px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.payment_model button{
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #afbd63;
+}
+
+.thankyou{
+   background-color: #afbd63;
+   padding: 30px 10px;
+   text-align: center;
+   font-size: large;
+   display: none;
+}
