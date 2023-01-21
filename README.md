@@ -12,5 +12,5 @@ Single page app for ordering flowers.
 ## Contribution
 - [ ] Center payment modal window
 - [ ] Add form validations
-
+- [ ] Header image streach 
 Please feel free to raise issues.
