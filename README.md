@@ -12,6 +12,8 @@ Single page app for ordering flowers.
 ## Contribution
 - [ ] Center payment modal window
 - [ ] Add form validations
-- [ ] Header image streach 
+- [ ] Header image  
 - [X] Remove extra space in header
+
+## Found issue?
 Please feel free to raise issues.
