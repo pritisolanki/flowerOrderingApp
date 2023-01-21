@@ -11,9 +11,26 @@ header{
     background-image: url("./assets/fl.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
     height: auto;
     margin-top: 0px;
+}
+.shopname{
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    padding: 0 10px 10px 10px; 
+    background-color: #8c80b0;
+    margin-top: 0px;
+}
+.tagline{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 432px;
+    width: auto;
+    padding:20px 20px 20px 20px; 
+    background-color: #8c80b0;
 }
 #floweritems{
     margin-left: 30px;
@@ -32,19 +49,6 @@ header{
     padding: 10px;
     display: flex;
     flex-direction: row;
-}
-.shopname{
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px 1px snow;
-}
-.tagline{
-    text-align: center;
-    font-size: x-large;
-    margin-top: 432px;
-    width: auto;
-    padding: 20px; 
-    background-color: #8c80b0;
 }
 .btn{
     background-color: #8c80b0;
