@@ -51,6 +51,7 @@ document.addEventListener('click',function(e){
         checkDiscount()
     }
     if(e.target.dataset.add){
+        document.getElementById('thankyouModel').style.display='none';
         const price = Number(document.getElementById(`price-${e.target.dataset.add}`).innerText);
         const title = document.getElementById(`product-${e.target.dataset.add}`).innerText;
         document.getElementById("book").style.display='block';
